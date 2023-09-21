@@ -1,16 +1,20 @@
-### Hi there 👋
+## Hello, I'm [0xMr.pepe](https://pepeleaks.github.io/) 👨
+```cpp
+#include <iostream>
+class WhoAmI {
+public:
+    std::string name = NULL;
+    std::string current_work = "Writing code";
+    void hobbies() {
+        breakintodb();
+        leaktools();
+        }
+};
 
-<!--
-**pepeleaks/pepeleaks** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+void main() {
+    WhoAmI me
+    std::cout << "My name: " << me.name << "\n";
+    std::cout << "My current work: " << me.current_work << "\n";
+    me.hobbies();
+}
+```
